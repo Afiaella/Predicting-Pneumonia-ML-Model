@@ -22,4 +22,3 @@ At the end of this presentation, we hope that our model will be used in the heal
 
 ## The APP
 
-
