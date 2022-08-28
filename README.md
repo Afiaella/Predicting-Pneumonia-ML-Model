@@ -26,7 +26,8 @@ A convoluted deep nueral network was used to build the model. Arriving to a nuer
 ![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_performance.png)
 
 
-The confusion matrix of the validation data from model 1 can be seen in the image below. The recall and precision from this model was very good. of the 
+The confusion matrix of the validation data from model 1 can be seen in the image below. The recall and precision from this model was very good. Of this model was very good. Of the 310 people that had pnuemonia only 30 (approximately 10 %) were classed as having no pnuemonia (false negatives). On the other had only 30 of the images that were from people that had no pnuemonia were classed by the model as having come from the a person that had pnuemonia. This makes to percentage of false postives approximately 20%. This shows that model-1 is able to identify x-ray from people with pnuemonia with good confidence.
+
 ![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_confustion_matrix.png)
 
 ## The APP
