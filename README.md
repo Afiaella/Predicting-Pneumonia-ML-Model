@@ -26,9 +26,8 @@ A convoluted deep nueral network was used to build the model. Arriving to a nuer
 ![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_performance.png)
 
 
-The confusion matrix of the validation data from model-1 can be seen in the image below. The recall and precision from this model was very good. Of the 310 images that were from a person that had pnuemonia only 30 (approximately 10%) were classed as having no pnuemonia. Whilst on 20 images from a person that had no pnuemonia were classed as coming from a person that had pnuemonia.
-
-![caption]https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_confustion_matrix.png
+The confusion matrix of the validation data from model 1 can be seen in the image below. The recall and precision from this model was very good. of the 
+![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_confustion_matrix.png)
 
 ## The APP
 
