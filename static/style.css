@@ -1,0 +1,41 @@
+body {
+    background: #f9f9f9;
+    background: red;
+    font-family: "Arial";
+}
+
+h1 {
+    font-family: "Arial Black";
+    font-size: 3em;
+}
+
+.goodnews.badnews {
+    font-size: 1.8em;
+}
+
+.goodnews {
+    color: green;
+}
+
+.badnews {
+    color: indianred;
+}
+
+#footer {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 10px solid black;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
