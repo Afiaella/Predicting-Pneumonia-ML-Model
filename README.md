@@ -30,7 +30,8 @@ The confusion matrix of the validation data from model 1 can be seen in the imag
 
 ![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_confustion_matrix.png)
 
-Model-1 is our best performing model. This was produced after performing trials in which the number of images from people with no pnuemonia and those with pnuemonia was 1341 and 3875 respectively. Even though this 
+Model-1 is our best performing model. This was produced after performing trials in which the number of images from people with no pnuemonia and those with pnuemonia was 1341 and 3875 respectively. Even though class weights were used to normalise the data. The model from the first trail wrongly predicted 22% of the positive (pnuemonia) instances in the validation data and 28% of the negative instances(no pnuemonia). The confusion matrix for this model is shown below and the jupter notebook for this model can be found on here <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/First_trial_notebook.ipynb">first trial notebook</a>
+
 
 ![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/first_trial_model_performance.png)
 
