@@ -15,7 +15,8 @@ Armed with this information and knowing that pneumonia cannot easily be detected
 At the end of this presentation, we hope that our model will be used in the healthcare industry to improve detection of pneumonia and ultimately reduce mortality rate especially in under 5 children.
 
 ## Data Extraction, Transformation and Loading
-Our data was sourced from kaggle and it was loaded onto AWS into a bucket ready for extraction. We used Google Colab to connect to our AWS bucket. We used some essential models for image processing such as CV2 and PIL, and various modules to create  get_data function that processes AWS objects into a (224, 224, 1) Numpy array that is fed into the CNN. We faced many challeges such as image adjustments, we had to change our images from bytes to jpeg, we changed them to grayscale and saved them into arrays to be reduced in size. We also had some data imbalance issues which we resolved using class weights.
+Our data was sourced from <a href="https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia">kaggle</a>
+ and it was loaded onto AWS into a bucket ready for extraction. We used Google Colab to connect to our AWS bucket. We used some essential models for image processing such as CV2 and PIL, and various modules to create  get_data function that processes AWS objects into a (224, 224, 1) Numpy array that is fed into the CNN. We faced many challeges such as image adjustments, we had to change our images from bytes to jpeg, we changed them to grayscale and saved them into arrays to be reduced in size. We also had some data imbalance issues which we resolved using class weights.
  
 
 
