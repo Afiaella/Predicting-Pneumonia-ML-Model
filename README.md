@@ -32,7 +32,7 @@ The confusion matrix of the validation data from model 1 can be seen in the imag
 
 Model-1 is our best performing model. This was produced after performing trials in which the number of images from people with no pnuemonia and those with pnuemonia was 1341 and 3875 respectively. Even though this 
 
-![image] (https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/first_trial_model_performance.png)
+![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/first_trial_model_performance.png)
 
 ## The APP
 
