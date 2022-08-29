@@ -1,4 +1,4 @@
-# Prediticting--Pneumonia-ML-Model
+# Predicting-Pneumonia-ML-Model
 ## Project Team Members: Kudzanai, Emmanuela, Noshaad, Maxwell and Chisimnulia
 ## Introduction
 Pneumonia is a disease, usually caused by an infection, that affects the lungs and it is usually diagnosed by physicians using radiological imaging to determine the infectious agent that causes the disease. 15% of child deaths were caused by Pneumonia in 2017 making it the leading cause of death in children under 5yrs old.
