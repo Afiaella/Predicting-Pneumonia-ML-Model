@@ -44,5 +44,5 @@ Using kerastuner RandomSearch library it was possible to indentify parameters th
  and <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/model-0_jupyter_notebook.ipynb">mode-0 jupyter notebook</a> respectively. The confusion matrix and classification report for this model is shown below. The model wrongly predicts 9% of the postive values and 20% of the negative values.  
 
 ## The APP
-
+Backend and Frontend programming lanaguages were used to develop an app to predict whether a patient has pneumonia or not . Setting a threshold >= 0.9 indicating that a patient do have high chances of having pneumonia while threshold < 0.9 indicates that a patient may likely not to a sign of pneumonia from the above Machine learning model(Model1-1) which is the best model.
 
