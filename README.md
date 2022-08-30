@@ -31,14 +31,14 @@ The confusion matrix of the validation data from model-1 can be seen in the imag
  and <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/final_Pnuemonia_model_optimised_1.ipynb">model-1 jupyter notebook</a>
  respectively
 
-![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_confustion_matrix.png)
+![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/model-1%20perfomance%20chart.png)
   <figcaption>model-1 validation data confusion matrix</figcaption>
 </figure>
 
 Model-1 is our best performing model. This was produced after performing trials in which the number of images from people with no pnuemonia and those with pnuemonia was 1341 and 3875 respectively. Even though class weights were used to normalise the data. The model from the first trail wrongly predicted 22% of the positive (pnuemonia) instances in the validation data and 28% of the negative instances(no pnuemonia). The confusion matrix for this model is shown below and the jupter notebook for this model can be found here <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/First_trial_notebook.ipynb">first trial notebook</a>
 
 
-![image]("Images/model-1 perfomance chart.png")
+![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/first_trial_model_performance.png)
 
 Using kerastuner RandomSearch library it was possible to indentify parameters that improved on the first trial run by finding the best fit model based nueral network model that was used in the trial run and reducing the batch size from 32 to 16. This is model-0. The Hierarchical Data Format version 5 (HDF5) file and jupyter notebook of this model can be found here <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/model-1_(HDF5)_file.h5">model-0 HDF5-file</a>
  and <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/model-0_jupyter_notebook.ipynb">mode-0 jupyter notebook</a> respectively. The confusion matrix and classification report for this model is shown below. The model wrongly predicts 9% of the postive values and 20% of the negative values.  
