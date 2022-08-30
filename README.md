@@ -28,7 +28,7 @@ A sequential convoluted deep nueral network was used to build the model. Arrivin
 
 
 The confusion matrix of the validation data from model-1 can be seen in the image below. The recall and precision from this model was very good. Of the 310 people that had pnuemonia only 30 (approximately 10 %) were classed as having no pnuemonia (false negatives). On the other had only 30 of the images that were from people that had no pnuemonia were classed by the model as having come from the a person that had pnuemonia. This makes to percentage of false postives approximately 20%. This shows that model-1 is able to identify x-ray from people with pnuemonia with good confidence. The Hierarchical Data Format version 5 (HDF5) file and jupyter notebook of this model can be found on these links <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/model-0_(HDF5)_file.h5">model-0 HDF5 file</a>
- and <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/model-1_(HDF5)_file.h5">model-1 jupyter notebook</a>
+ and <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/final_Pnuemonia_model_optimised_1.ipynb">model-1 jupyter notebook</a>
  respectively
 
 ![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/final_optimised_model_confustion_matrix.png)
@@ -38,7 +38,7 @@ The confusion matrix of the validation data from model-1 can be seen in the imag
 Model-1 is our best performing model. This was produced after performing trials in which the number of images from people with no pnuemonia and those with pnuemonia was 1341 and 3875 respectively. Even though class weights were used to normalise the data. The model from the first trail wrongly predicted 22% of the positive (pnuemonia) instances in the validation data and 28% of the negative instances(no pnuemonia). The confusion matrix for this model is shown below and the jupter notebook for this model can be found here <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/First_trial_notebook.ipynb">first trial notebook</a>
 
 
-![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/first_trial_model_performance.png)
+![image]("Images/model-1 perfomance chart.png")
 
 Using kerastuner RandomSearch library it was possible to indentify parameters that improved on the first trial run by finding the best fit model based nueral network model that was used in the trial run and reducing the batch size from 32 to 16. This is model-0. The Hierarchical Data Format version 5 (HDF5) file and jupyter notebook of this model can be found here <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/model-1_(HDF5)_file.h5">model-0 HDF5-file</a>
  and <a href="https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Notebooks/model-0_jupyter_notebook.ipynb">mode-0 jupyter notebook</a> respectively. The confusion matrix and classification report for this model is shown below. The model wrongly predicts 9% of the postive values and 20% of the negative values.  
