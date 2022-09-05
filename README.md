@@ -44,6 +44,5 @@ Using kerastuner RandomSearch library it was possible to indentify parameters th
 
 
 ![image](https://github.com/mayooks/Predicting-Pneumonia-ML-Model/blob/main/Images/model-0%20classification%20report.png)
-## The APP
-Backend and Frontend programming lanaguages were used to develop an app to predict whether a patient has pneumonia or not . Setting a threshold >= 0.9 indicating that a patient do have high chances of having pneumonia while threshold < 0.9 indicates that a patient may likely not to a sign of pneumonia from the above Machine learning model(Model1-1) which is the best model.
+
 
